@@ -25,3 +25,33 @@
     font-family: sans-serif;
     text-align: center;
     padding: 24px;
+}
+
+#palette2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+#palette2-color1 {
+    background-color: #758ECD;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color2 {
+    background-color: #C1CEFE;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color3 {
+    background-color: #7189FF;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
