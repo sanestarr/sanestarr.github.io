@@ -1,0 +1,33 @@
+#first-paragraph {
+    color: purple;
+    background-color: antiquewhite;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline dotted;
+}
+#second-paragraph {
+    color: grey;
+    background-color: lightcoral;
+    text-decoration: line-through;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: rgb(68, 40, 80);
+}
+
+#span1 {
+    color: chocolate;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#span2 {
+    color: blueviolet;
+    background-color: rgb(37, 150, 129);
+    text-decoration: line-through;
+}
+
+#span3 {
+    color: darkred;
+    

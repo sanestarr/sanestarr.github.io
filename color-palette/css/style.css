@@ -1,0 +1,27 @@
+#palette1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #BFB5AF;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #86A873;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background-color: #7D83FF;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
