@@ -1,0 +1,14 @@
+div {
+    border: 10px solid tan;
+    margin: 24px;
+    padding: 24px 36px;
+    background-color: blanchedalmond;
+}
+
+p {
+    /*border: 20px dotted blueviolet; */
+    border-radius: 50%;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: violet;
+}
