@@ -47,9 +47,14 @@
 }
 
 .gold {
-    background-color: ;
+    background-color: gold;
+    border-color: antiquewhite;
 }
 
+.pink {
+    background-color: rgb(214, 191, 191);
+    border-radius: rgb(94, 25, 35);
+}
 .round {
     border-radius: 50%;
 }
