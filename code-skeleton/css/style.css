@@ -1,0 +1,27 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+}
+
+#navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 8px;
+}
+
+p a {
+    color: rgb(10, 126, 87);
+}
+
+p.warning {
+    color: rgb(202, 76, 112);
+}
+
+p.warning a {
+    color: rgb(138, 112, 45);
+}
+
+ul a {
+    color: lime;
+}
