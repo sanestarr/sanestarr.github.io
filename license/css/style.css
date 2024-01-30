@@ -7,31 +7,48 @@
     Good luck, and have fun!
 */
 #license {
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     width: 700px;
     border-radius: 24px;
     box-shadow: 6px 6px 6px black;
+    background: linear-gradient(rgb(167, 235, 216), rgb(209, 135, 211));
+}
+h4 {
+    text-align: center;
+}
+#license span {
+    color: rgb(222, 34, 34);
+}
+#address {
+    font-weight: bold;
+    margin: 10px;
 }
 h1 {
-    border: 3px solid red;
+    font-size: 50px;
+    margin: 0px;
 }
 div h4 {
     background-color: darkblue;
     color: white;
+    padding: 10px;
+    font-size: 22px;
+    margin: 0px;
 }
 div h1 {
     color: darkblue;
 }
 #content {
     margin: 10px;
-    background: linear-gradient(rgb(143, 116, 249), lightblue)
 }
 #small-pic {
     display: inline-block;
-    width: 200px;
 }
 #data-fields {
     display: inline-block;
+    margin: 20px;
+}
+#data-fields span{
+    color: rgb(205, 21, 21);
 }
 #personal-info {
     display: inline-block;
@@ -44,20 +61,45 @@ div h1 {
 }
 #left-side {
     display: inline-block;
-    border: 3px solid red;
     width: 65%;
+}
+#left-side img {
+    width: 80px;
+    opacity: 50%;
+    margin: 10px;
 }
 #right-side {
     display: inline-block;
-    border: px solid red;
 }
 #right-side img {
-    width: 220px;
+    width: 200px;
+    margin: 10px;
+}
+#right-side {
+    text-align: center;
 }
 #donor {
-    
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    color: red;
 }
 #data-left,
 #data-right {
     display: inline-block;
+    color: darkblue;
+}
+#real-id {
+    display: inline-block
+}
+#id-and-expiration div {
+    display: inline-block
+}
+#id-and-expiration {
+    margin: 10px;
+    color: darkblue;
+}
+#signature {
+    text-align: center;
+    font-family: cursive;
 }
