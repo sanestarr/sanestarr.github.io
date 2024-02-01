@@ -14,7 +14,6 @@ body {
 #sidebar-content {
     background-color: antiquewhite;
     width: 250px;
-    /* order: 2; */
     padding: 24px;
     border-right: 2px solid coral;
 }
@@ -22,7 +21,6 @@ body {
 #main-content {
     background-color: tan;
     flex: 1; 
-    /* order: 1; */
 }
 
 #sidebar-content-h2 {
@@ -40,8 +38,8 @@ body {
     text-decoration: none;
 }
 
-#sidebar-context ul li {
-    padding: 48px;
+#sidebar-content ul li {
+    padding: 28px;
     flex: 1;
 }
 #main-content {
