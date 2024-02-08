@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-1 {
+    max-width: 350px;
+    box-shadow: -4px 4px 12px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 a {
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    text-align: center;
+}
