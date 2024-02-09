@@ -83,3 +83,7 @@ body {
 #pokemon-card-1, #pokemon-card-2 {
     background: linear-gradient(-25deg, orange, green, purple);
 }
+
+#pokemon-card-3 {
+    background: linear-gradient(-25deg orange orangered blue);
+}
