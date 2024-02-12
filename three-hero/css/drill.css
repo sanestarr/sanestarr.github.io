@@ -8,7 +8,7 @@ body {
 }
 
 #hero-1 {
-    background-image: url("../images/images /images/lizard.jpg");
+    background-image: url("../images/sanelogo.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -27,19 +27,21 @@ body {
 }
 
 #hero-2 {
-    background-image: url("../images/images /images/lonely-ocean.jpg");
+    background-image: url("../images/doberman.jpeg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-end;
 }
 
 #hero-2 h4 {
     font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    margin: 0px 0px 0px 5vw;
+    color: white;
+    margin-right: 50px;
 }
 
 #hero-2 a {
