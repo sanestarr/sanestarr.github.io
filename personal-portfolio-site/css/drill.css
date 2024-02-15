@@ -5,6 +5,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(220, 219, 219);
+    color: rgb(63, 5, 103);
 }
 
 #hero-1 {
@@ -75,5 +77,15 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 150vh;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
 }
 
