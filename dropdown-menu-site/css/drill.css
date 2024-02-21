@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.spacer {
+    height: 100vh;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #5e5352);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+#navbar .cta-buttom {
+    background-color: rgb(252, 236, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
