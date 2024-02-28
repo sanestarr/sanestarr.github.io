@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Pallete & Plate Gallery</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/drill.css" rel="stylesheet" data-meal-prep>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar (Header) - Logo</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="#" id="logo">
+                <img src="images/logo.jpg" alt="logo">
+            </a>
+            <a href="index.html">Home</a>
+            <a href="pallette-kitchen">PALLETTE Kitchen</a>
+            <a href="pallette-pool">PALLETTE Pool</a>
+            <a href="pallette-lounge">PALLETTE Lounge</a>
+            <a href="pallette-contact">Contact Us</a>
+        </div> 
+        <div id="layout">
+            <header>
+                <h1>Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                <!--
+                    To make a form actually functional, you must do two things:
+                        - set the method attribute to "POST"
+                        - provide a valid URL to the action attribute,
+                          which will handle the form submission
+                          (a free option is to create an account on getform.io,
+                          and use the endpoint URL that they provide you with)
+                -->
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/599c2b13-fd57-44e4-95a1-2c722b05c5e8"
+                >
+                    <div>
+                        <label for="services_id">
+                            What can we help you with?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select what we can help you with
+                            </option>
+                            <option value="gardening">
+                                Gardening
+                            </option>
+                            <option value="coding">
+                                Coding
+                            </option>
+                            <option value="web dev">
+                                Web Development
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. Steven Ambassi"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <h2>More Info</h2>
+                <p>
+                    To make a form like this functional, try creating
+                    an account at 
+                    <a href="https://pallete&p.io/" target="_blank">
+                        palletplategallery.com 
+                    </a>.
+                </p>
+                <p>
+                    That should make your form functional, and you can
+                    see the submitted forms in your emails, or in the 
+                    inbox you associated with your Pallet & Plate account!
+                </p>
+            </footer>
+        </div>
+
+    </body>
+</html>
+    </body>
+</html>
