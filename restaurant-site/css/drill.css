@@ -204,3 +204,62 @@ input:not(:focus):not(:placeholder-shown):invalid {
     position: sticky;
     top: 24px;
 }
+
+.spacer {
+    height: 100vh;
+}
+
+#hero-2 {
+    background-image: url("../images/lonely-ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+/* 
+    Gallery setup 
+*/
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    border: 10px solid #333333;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
