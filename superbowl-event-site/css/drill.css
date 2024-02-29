@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url();
+    background-color:rgb(214, 214, 214) ;
 }
 
 #layout {
@@ -79,8 +79,11 @@ p {
     color: #000000;
 }
 
+.content-container span {
+    color: rgb(127, 19, 19);
+}
 
-#hero-3 {
+/* #hero-3 { */
     background-image: url("../images/orange-wildflowers.jpg");
     height: 100vh;
     background-size: cover;
@@ -108,9 +111,22 @@ p {
 #hero-3 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: #333333;
+    background-color: #227b8d;
     color: white;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
+}
+
+#card2 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover a {
+    background-color: rgb(118, 17, 113);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
 }
