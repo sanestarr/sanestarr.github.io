@@ -438,7 +438,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
 }
 
 #footer {
-    background: linear-gradient(to bottom, teal, #01482e);
+    background: linear-gradient(to bottom, rgb(166, 34, 95), #320412);
     color: white;
     padding: 12px;
 }
@@ -484,67 +484,19 @@ input:not(:focus):not(:placeholder-shown):invalid {
     justify-content: center;
 }
 
-/*
-    That addresses the image alignment issue,
-    but what about the text?
-
-    That one is a little trickier to fix,
-    but we can do so if we're clever.
-
-    The main problem is that we have extra
-    space that appears at the bottom of the
-    card when content heights don't align.
-
-    What have we learned that let's us take
-    advantage of available extra space...?
-
-    There are actually a couple answers to
-    that question, but the one we're looking
-    for here is the Flexbox Item Property
-    "flex" (you know, the confusing one).
-
-    What we're going to do is "flex" the
-    height of the paragraph, so that it 
-    takes up all the extra space in the
-    card, which should push the button
-    down to the bottom.
-
-    To do that, first we need to turn our
-    cards into Flexboxes.
-*/
-
 .card {
     width: 350px;
-    border: 2px solid #ffe4da;
+    border: 2px solid #272525;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
+    box-shadow: -4px 4px 12px #1e1d1d;
     background: linear-gradient(
         -50deg, 
-        #ffdbdb, 
-        #fff7f7, 
-        #ffc9c9
+        #8f3f5a, 
+        #c885a2, 
+        #fedfea
     );
-    /*
-        Activate Flexbox here.
-    */
     display: flex;
-    /*
-        Oh boy, that's an ugly mess, isn't it!
-
-        But that's to be expected, because Flexbox
-        organizes things into rows by default.
-
-        Let's get them back the way we had them 
-        before, into columns.
-
-        Any ideas which Flexbox property we can use
-        for that?
-
-        
-
-        ...flex-direction!
-    */
     flex-direction: column;
 }
 
@@ -557,88 +509,26 @@ input:not(:focus):not(:placeholder-shown):invalid {
 .card h2 {
     font-size: 36px;
     margin-top: 12px;
-    /*
-        One odd side-effect of using Flexbox is
-        that its children's margins start acting
-        like padding; they add together rather 
-        than overlap.
-
-        This means we have more space between our 
-        heading and paragraph than we did before 
-        we turned the card into a Flexbox.
-
-        Let's address that real quick by removing
-        the bottom padding from the h2.
-    */
     margin-bottom: 0px;
 }
 
-/*
-    Now we're basically back to where we started.
-
-    But the difference is: now we can take 
-    advantage of Flexbox Item Properties like
-    "flex", which we're going to use here
-    on the paragraph.
-*/
 .card p {
     font-size: 18px;
-    /* flexing the height of the paragraph */
     flex: 1;
 }
 
-/*
-    Now the paragraph element stretches to
-    fill the remaining space in the card,
-    so that all of the buttons appear to
-    be aligned to the bottom of the card.
-
-    It's still not a foolproof solution; 
-    things get even more complicated if
-    your headings get longer than a
-    single line (flex can actually help
-    with that too).
-
-    As you continue programming and building
-    more complex layouts, you'll learn that
-    very rarely is there a solution that 
-    works 100% of the time for every possible
-    content and layout combination.
-
-    That's why it's so important to understand
-    the different tools at your disposal
-    (which in your case, are CSS properties),
-    and how they can be used to build or 
-    modify design layouts.
-
-    That's it for today's demo though!
-
-    You've learned how to 
-    - group content into a card layout
-    - style the edges of the card to stand out more
-      using box-shadow and borders
-    - use linear-gradients
-    - style a button, including its hover state
-    - arrange your cards in a pleasing and
-      organized layout.
-
-    That's quite a lot! Refer back to this demo
-    as you work on the exercises today, as they
-    build on many of concepts you've used here.
-
-*/
 
 .card a {
     color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: lightcoral;
+    background-color: rgb(72, 8, 48);
     display: inline-block;
     width: 100%;
     padding: 10px;
     text-align: center;
-    border: 3px solid lightcoral;
+    border: 3px solid rgb(72, 8, 48);
     transition:
         background-color .5s,
         color .5s;
@@ -646,5 +536,5 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
 .card a:hover {
     background-color: transparent;
-    color: lightcoral;
+    color: rgb(0, 0, 0);
 }
