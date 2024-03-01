@@ -468,9 +468,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     padding: 8px 0px;
 }
 
-/*
-    Layout setup and configuration
-*/
 #layout {
     width: 800px;
     margin: 48px auto;
